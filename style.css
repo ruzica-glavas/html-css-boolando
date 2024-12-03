@@ -33,6 +33,13 @@ main{
     position: relative;
 }
 
+.first-three-img-hover{
+    display: none;
+}
+
+
+
+
 .last-three-img{
     display: flex;
     justify-content: center;
@@ -40,6 +47,14 @@ main{
     background-color: white;
     position: relative;
 }
+
+.last-three-img-hover{
+    display: none;
+}
+
+
+
+
 
 svg{
     width: 15px;
