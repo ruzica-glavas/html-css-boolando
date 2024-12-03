@@ -33,11 +33,24 @@ main{
     position: relative;
 }
 
-.first-three-img-hover{
+
+.first-three-img :hover{
+    cursor: pointer;
+}
+
+
+.first-three-img-hover {
     display: none;
 }
 
 
+.first-three-img :hover .first-three-img-hover{
+    display:inline-block;
+}
+
+.first-three-img :hover .first-three-img-hover{
+    display: none;
+}
 
 
 .last-three-img{
@@ -48,12 +61,13 @@ main{
     position: relative;
 }
 
+.last-three-img :hover{
+    cursor: pointer;
+}
+
 .last-three-img-hover{
     display: none;
 }
-
-
-
 
 
 svg{
