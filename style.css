@@ -34,9 +34,10 @@ main{
 }
 
 
-.first-three-img :hover{
+.first-three-img:hover{
     cursor: pointer;
 }
+
 
 
 .first-three-img-hover {
@@ -44,13 +45,16 @@ main{
 }
 
 
-.first-three-img :hover .first-three-img-hover{
-    display:inline-block;
+
+.first-three-img:hover .first-three-img-hover{
+    display: inline-block;
 }
 
-.first-three-img :hover .first-three-img-hover{
-    display: none;
+.first-three-img .first-three-img{
+    display:none;
 }
+
+
 
 
 .last-three-img{
