@@ -30,12 +30,23 @@ main{
     gap: 10px;
     margin-bottom: 20px;
     background-color: white;
+    position: relative;
 }
 
 .last-three-img{
     display: flex;
     justify-content: center;
     gap: 10px;
+    background-color: white;
+    position: relative;
+}
+
+svg{
+    width: 15px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 10px;
+    border: 20px;
     background-color: white;
 }
 
