@@ -4,6 +4,7 @@ header{
     justify-content: space-around;
     background-color: orange;
     color: white;
+    padding: 20px;
 }
 
 ul{
@@ -46,12 +47,31 @@ main{
     flex-direction: column;
 }
 
-span{
+.line{
     text-decoration: line-through;
+    color:black;
 }
 
 .discount{
     color:red;
+}
+
+.etichetta{
+    position: absolute;
+    margin-top: 200px;
+    color:white;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.green{
+
 }
 
 
@@ -81,6 +101,9 @@ span{
     background-color: white;
     position: relative;
 }
+
+
+
 
 .last-three-img :hover{
     cursor: pointer;
