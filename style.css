@@ -22,11 +22,12 @@ ul{
 main{
     padding: 20px;
     background-color: white;
+
 }
 
 .first-three-img{
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
     background-color: white;
@@ -34,24 +35,40 @@ main{
 }
 
 
-.first-three-img:hover{
-    cursor: pointer;
+
+.image-container{
+    display: flex; 
+    justify-content: center; 
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    position: relative;
+    flex-direction: column;
+}
+
+span{
+    text-decoration: line-through;
+}
+
+.discount{
+    color:red;
 }
 
 
 
-.first-three-img-hover {
+.second-img{
+    display: none;
+    position: relative;
+}
+
+
+
+.image-container:hover .default-img{
     display: none;
 }
 
-
-
-.first-three-img:hover .first-three-img-hover{
-    display: inline-block;
-}
-
-.first-three-img .first-three-img{
-    display:none;
+.image-container:hover .second-img{
+    display:block;
 }
 
 
@@ -75,13 +92,14 @@ main{
 
 
 svg{
-    width: 15px;
+    width: 10px;
     position: absolute;
-    margin-left: -20px;
-    margin-top: 10px;
+    margin-left: 190px;
+    margin-top: -330px;
     border: 20px;
     background-color: white;
 }
+
 
 .description-img{
     background-color: white;
